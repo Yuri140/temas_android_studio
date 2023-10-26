@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/corFundo"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -12,9 +13,8 @@
         android:layout_height="wrap_content"
         android:text="Themes"
         android:textAllCaps="true"
-        android:textColor="#000"
+        android:textColor="@color/corFonte"
         android:textSize="30sp"
-        android:layout_gravity="center_horizontal"
         android:layout_margin="20sp"
         android:textStyle="bold"
         />
@@ -22,7 +22,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enviar"
-        android:layout_gravity="center_horizontal"
         android:layout_margin="20dp"
         />
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -31,7 +30,6 @@
         android:layout_margin="20dp"
         android:contentDescription="Botão Flutuante"
         android:src="@drawable/baseline_message"
-        android:layout_gravity="center_horizontal"
         />
 
 </LinearLayout>

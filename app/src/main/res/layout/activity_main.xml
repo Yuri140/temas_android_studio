@@ -25,5 +25,13 @@
         android:layout_gravity="center_horizontal"
         android:layout_margin="20dp"
         />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:contentDescription="Botão Flutuante"
+        android:src="@drawable/baseline_message"
+        android:layout_gravity="center_horizontal"
+        />
 
 </LinearLayout>
